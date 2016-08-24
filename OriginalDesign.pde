@@ -14,7 +14,12 @@ void draw()
   noStroke();
   fill(129,137,138);
   ellipse(270,180,20,20);
-  ellipse(340,180,20,20);
+  ellipse(320,180,20,20);
+  ellipse(265,200,20,50);
+  ellipse(325,200,20,50);
+  //beaks
+  fill(246,192,87);
+  triangle(293,175,280,170,280,180);
 }
 
 
