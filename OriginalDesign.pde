@@ -4,6 +4,7 @@ void setup()
 }
 void draw()
 {
+	stroke(0);
 	//background
 	fill(157,230,239);
   rect(100,120,400,200);
@@ -30,11 +31,15 @@ void draw()
   fill(129,137,138);
   ellipse(260,200,15,38);
   ellipse(330,200,15,38);
+  //heart
+  if (mousePressed == true)
+  {
+	  fill(255,0,0);
+	  noStroke();
+	  ellipse(298,160,3,3);
+	  ellipse(296,158,3,3);
+	  ellipse(300,158,3,3);
+  }
 }
 
-void heart ()
-{
-	fill(255,0,0);
-	arc(300,200,20,25,20,255);
-}
 
