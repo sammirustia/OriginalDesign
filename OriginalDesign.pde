@@ -32,7 +32,7 @@ void draw()
   ellipse(260,200,15,38);
   ellipse(330,200,15,38);
   //heart
-  if (mousePressed == true)
+  if (mousePressed)
   {
 	  fill(255,0,0);
 	  noStroke();
